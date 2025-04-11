@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Global Music Official</title>
+    <link rel="stylesheet" href="registerstyle.css">
+</head>
+<body>
+    <div class="register-container">
+        <h2>Create Your Account</h2>
+        <form class="register-form" id="registerForm">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required placeholder="Enter Your Name">
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter Your Personal Email">
+            </div>
+            
+            <div class="form-group">
+                <label for="password">Password</label>
+                <div class="password-wrapper">
+                    <input type="password" id="password" name="password" required placeholder="Create Own Password">
+                    <button type="button" class="password-toggle">View Your Password 👁️</button>
+                </div>
+                <div class="password-strength">Password must be at least 8 characters</div>
+            </div>
+            
+            <div class="form-group">
+                <label for="confirm_password">Confirm Password</label>
+                <input type="password" id="confirm_password" name="confirm_password" required placeholder="Enter confirm_Password">
+        
+            </div>
+            
+            <button type="submit" class="submit-btn">Register</button>
+            
+            <div class="login-link">
+                Already have an account? <a href="login.html">Login here</a>
+            
+            <div class="login-link">
+                 <a href="index.html">Go to Home</a>
+            </div>
+            </div>
+        </form>
+    </div>
+    <script src="register.js"></script>
+</body>
+</html>

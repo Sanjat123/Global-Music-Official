@@ -1,0 +1,161 @@
+/* Registration Page Styles */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #492626;
+    color: #FFF;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.register-container {
+    width: 100%;
+    max-width: 500px;
+    background-color: #3f0707;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.register-container h2 {
+    color: #c7db78;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.form-group label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f6f1f1;
+}
+
+.form-group input {
+    padding: 12px 15px;
+    border: 2px solid #b3c4c1;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-group input:focus {
+    border-color: #c7db78;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(199, 219, 120, 0.3);
+}
+
+.password-strength {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #b3c4c1;
+}
+
+.submit-btn {
+    padding: 12px;
+    background-color: #c7db78;
+    color: #081b29;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+.submit-btn:hover {
+    color: black;
+    transform: translateY(-2px);
+    
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 20px;
+    color: #f6f1f1;
+}
+
+.login-link a {
+    color: #c7db78;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.login-link a:hover {
+    color: #a8c45c;
+    text-decoration: underline;
+}
+
+/* Password toggle visibility */
+.password-wrapper {
+    position: relative;
+}
+
+.password-toggle {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #b3c4c1;
+    cursor: pointer;
+}
+
+/* Error messages */
+.error-message {
+    color: #ff6b6b;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .register-container {
+        padding: 20px;
+        margin: 15px;
+    }
+    
+    .register-container h2 {
+        font-size: 24px;
+    }
+    
+    .form-group input {
+        padding: 10px 12px;
+    }
+    
+    .submit-btn {
+        padding: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .register-container {
+        padding: 15px;
+    }
+    
+    .register-form {
+        gap: 15px;
+    }
+}
