@@ -856,12 +856,7 @@ h2{
     cursor: pointer;
 }
 
-.submit-btn:hover {
-    background-color: #c18452;
-    color: black;
-    transform: scale(1.0) translateY(-3px); 
-   
-}
+
 
 /* Winner Scroll Container */
 .winner-scroll-container {
