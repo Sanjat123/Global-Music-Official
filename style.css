@@ -472,10 +472,10 @@ body {
     width: 100%;
 }
 
-
 .submit-btn {
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-    color: white;
+    color: rgb(251, 251, 251);
+  
     padding: 16px;
     border: none;
     border-radius: var(--border-radius-sm);
@@ -516,6 +516,12 @@ body {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
     background: linear-gradient(to right, var(--primary-dark), var(--secondary-color));
 }
+
+.btn-text {
+    position: relative;
+    z-index: 1;
+}
+
 
 /* Video Section */
 .video-section {
