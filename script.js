@@ -217,7 +217,7 @@ function initializePage() {
                     "contact.title": "Contact & Send Your Feedback",
                     "contact.info": "Contact Information",
                     "contact.description": "Feel free to contact us through any of the methods below:",
-                    "contact.resume": "Click Here Subcribe My Channel",
+                    "contact.resume": "Subcribe Now 🔔",
                     "contact.form_name": "Enter Your Name",
                     "contact.form_email": "Enter Your Email",
                     "contact.form_phone": "Enter Your Phone",
