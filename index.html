@@ -329,7 +329,39 @@
             </div>
         </div>
     </section>
+<!-- Chatbot Launcher Button -->
+ <div class="chatbot-launcher" id="chatbotLauncher">
+    <i class="fas fa-headphones"></i>
+</div>
 
+<!-- Chatbot Container -->
+<div class="chatbot-container chatbot-closed" id="chatbotContainer">
+    <div class="chatbot-header" id="chatbotHeader">
+        <div class="chatbot-title">
+            <i class="fas fa-robot"></i>
+            <span>Music Assistant</span>
+        </div>
+        <button class="chatbot-close" id="chatbotClose">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+    <div class="chatbot-body">
+        <div class="chatbot-messages" id="chatbotMessages">
+            <!-- Messages will appear here -->
+            <div class="message bot-message">
+                Hello! I'm your Global Music Assistant. How can I help you today?
+            </div>
+            <div class="message bot-message">
+                I can help with artist information, music recommendations, event details, and more!
+            </div>
+        </div>
+        <div class="chatbot-input">
+            <input type="text" id="chatbotInput" placeholder="Ask me about music..." autocomplete="off">
+            <button id="chatbotSend"><i class="fas fa-paper-plane"></i></button>
+        </div>
+    </div>
+</div>
+<script src="chatbotai.js"></script>
     <!-- Footer Section -->
     <footer>
         <div class="language-selector">
